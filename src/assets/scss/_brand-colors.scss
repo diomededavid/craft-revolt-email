@@ -1,0 +1,92 @@
+/* Background Colors */
+@import "settings";
+
+	&.background- {
+		&primary {
+			background-color: $primary-color !important;
+		}
+
+		&primary-light {
+			background-color: lighten($primary-color, 40%) !important;
+		}
+
+		&secondary {
+			background-color: $secondary-color !important;;
+		}
+
+		&success {
+			background-color: $success-color !important;;
+		}
+
+		&warning {
+			background-color: $warning-color !important;;
+		}
+
+		&alert {
+			background-color: $alert-color !important;;
+		}
+
+		&light-gray {
+			background-color: $light-gray !important;;
+		}
+
+		&medium-gray {
+			background-color: $medium-gray !important;;
+		}
+
+		&dark-gray {
+			background-color: $dark-gray !important;;
+		}
+
+		&black {
+			background-color: $black !important;;
+		}
+
+		&white {
+			background-color: $white;
+		}
+	}
+
+
+/* Background Colors */
+
+.text- {
+	&primary {
+		color: $primary-color;
+	}
+
+	&secondary {
+		color: $secondary-color;
+	}
+
+	&success {
+		color: $success-color;
+	}
+
+	&warning {
+		color: $warning-color;
+	}
+
+	&light-gray {
+		color: $light-gray;
+	}
+	&light-gray {
+		color: $alert-color;
+	}
+
+	&medium-gray {
+		color: $medium-gray;
+	}
+
+	&dark-gray {
+		color: $dark-gray;
+	}
+
+	&black {
+		color: $black;
+	}
+
+	&white {
+		color: $white;
+	}
+}

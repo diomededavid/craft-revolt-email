@@ -1,0 +1,27 @@
+footer {
+  .container, .wrapper {
+    background-color: $primary-color;
+  }
+
+
+  p {
+    font-size: 16px;
+    line-height: 18px;
+  }
+
+  h6 {
+    color: rgba(255, 255, 255, 0.701961);
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  a {
+    color: rgba(255, 255, 255, 0.701961);
+    text-decoration: underline;
+
+    &:visited{
+      color: rgba(255, 255, 255, 0.701961);
+      text-decoration: underline;
+    }
+  }
+}

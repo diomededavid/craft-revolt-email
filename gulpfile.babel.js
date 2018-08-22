@@ -120,7 +120,7 @@ function inliner(css) {
 
   var pipe = lazypipe()
     .pipe($.inlineCss, {
-      applyStyleTags: false,
+      applyStyleTags: true,
       removeStyleTags: true,
       preserveMediaQueries: true,
       removeLinkTags: false

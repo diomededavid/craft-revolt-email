@@ -12,6 +12,16 @@ footer {
     color: rgba(255, 255, 255, 0.701961);
     font-size: 12px;
     line-height: 18px;
+
+    /* Small only */
+    @media only screen and (max-width: #{$global-breakpoint}) {
+      text-align: center;
+    }
+  }
+
+  img.social {
+    width: 16px !important;
+    height: 16px !important;
   }
 
   a {

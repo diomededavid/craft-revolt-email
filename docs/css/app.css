@@ -91,6 +91,17 @@ th.columns.last {
 th.columns table:not(.button) {
   width: 100%; }
 
+th.large-1 {
+  width: 32.33333px;
+  padding-left: 8px;
+  padding-right: 8px; }
+
+th.large-1.first {
+  padding-left: 16px; }
+
+th.large-1.last {
+  padding-right: 16px; }
+
 th.large-3 {
   width: 129px;
   padding-left: 8px;
@@ -127,6 +138,11 @@ th.large-6.last {
 th.large-6 center {
   min-width: 242px; }
 
+th.large-10 {
+  width: 467.33333px;
+  padding-left: 8px;
+  padding-right: 8px; }
+
 th.large-12 {
   width: 564px;
   padding-left: 8px;
@@ -159,6 +175,10 @@ th.expander {
 h3.text-center,
 h6.text-center {
   text-align: center; }
+
+@media only screen and (max-width: 596px) {
+  .small-text-center {
+    text-align: center !important; } }
 
 table.float-center,
 th.float-center {
@@ -425,7 +445,15 @@ footer .container, footer .wrapper {
 footer h6 {
   color: rgba(255, 255, 255, 0.701961);
   font-size: 12px;
-  line-height: 18px; }
+  line-height: 18px;
+  /* Small only */ }
+  @media only screen and (max-width: 596px) {
+    footer h6 {
+      text-align: center; } }
+
+footer img.social {
+  width: 16px !important;
+  height: 16px !important; }
 
 footer a {
   color: rgba(255, 255, 255, 0.701961);
